@@ -3,6 +3,36 @@
 
 }
 
+body {
+	font-family: Lato;
+	font-variant: 300;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+h1 {
+	font-weight:300;
+}
+
+h2 {
+	font-weight:300;
+	font-size:150%;
+}
+
+h2 a {
+	color: #000000;
+}
+
+h3 {
+	color:#D2D2D2;
+	font-weight:300;
+	font-size:150%;
+
+}
+
+/* HEADER */
+
 header h1 {
 	display: inline-block;
 }
@@ -12,18 +42,18 @@ header h2 {
 	color: #B0B6BB;
 }
 
-body {
-	font-family: Lato;
-	font-variant: 300;
-	margin-right: 20px;
-	margin-left: 20px;
-	margin-top: 50px;
-}
-
 a {
 	color: #D2D2D2;
 	text-decoration: none;
 }
+
+h1 a {
+	text-decoration: none;
+	color: #F9D483;
+	font-size: 150%;
+}
+
+/* NAV */
 
 nav {
 	height: 80px;
@@ -52,19 +82,16 @@ nav li a {
 
 }
 
-
 nav li {
     float: left;
 }
 
 
+/* SECTION */
 
-
-
-h1 a {
-	text-decoration: none;
-	color: #F9D483;
-	font-size: 150%;
+section {
+	width: 66%;
+	float: left;
 }
 
 span {
@@ -77,11 +104,11 @@ span {
 	margin-right: 10px;
 }
 
-
-section {
-	width: 66%;
-	float: left;
+section h4 {
+	float:right;
 }
+
+/* ASIDE */
 
 aside {
 	width: 33%;
@@ -98,30 +125,6 @@ aside p a {
 	float:right;
 }
 
-h1 {
-	font-weight:300;
-}
-
-h2 {
-	font-weight:300;
-	font-size:150%;
-}
-
-h2 a {
-	color: #000000;
-}
-
-h3 {
-	color:#D2D2D2;
-	font-weight:300;
-	font-size:150%;
-
-}
-
-section h4 {
-	float:right;
-}
-
 img {
 	width:100%;
 }
@@ -130,13 +133,7 @@ h4 a {
 	color: #F9D483;
 }
 
-.module {
-	color: ;
-}
-
-.more {
-	color: #F9D483;
-}
+/* FOOTER */
 
 footer {
 	clear:both;
