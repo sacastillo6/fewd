@@ -1,0 +1,50 @@
+body {
+	background: #444444;
+	color: white;
+	border: 4px solid #777777;
+	padding: 25px;
+	margin: 50px;
+}
+
+
+h1 {
+	font-family: Georgia;
+	font-style: italic;
+	text-align: center;
+}
+
+h2
+{
+	font-family: arial;
+	font-weight: bold;
+}
+
+h3
+{
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+}
+
+h4
+{
+	font-family: arial;
+}
+
+
+a 
+{
+	color:#68c899;
+}
+p 
+{
+	font-family: Georgia;
+	padding: 12px;
+	font-size: medium;
+}
+img 
+{
+	float: right;
+	border: 1px solid #777777;
+	padding: 12px;
+}
